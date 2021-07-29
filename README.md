@@ -1,4 +1,5 @@
 # KnightMod
+THE MOD IS NOT OUT YET! pls wait for mod and watch the README.md File for newer versions! :)
 This is a mod for minecraft JAVA Edition. 1.15.2
 This mod will only work on forge. nothing else.
 You Have FULL consent to post it, make it better or anything in genral
