@@ -1,0 +1,19 @@
+package kngClient;
+
+import org.lwjgl.opengl.Display;
+
+public class Client {
+	
+	public String name = "KNGClient", version = "Dev 1.0.0 (CLOSED DEV)";
+	public static Client INSTANCE = new Client();
+	
+	public void startup() {
+		Display.setTitle(name + " | " + version);
+	}
+	
+	public void shutdown() {
+		
+	}
+	
+
+}

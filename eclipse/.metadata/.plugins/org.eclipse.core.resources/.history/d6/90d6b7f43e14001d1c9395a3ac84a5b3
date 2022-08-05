@@ -1,0 +1,7 @@
+package kngClient;
+
+public class Client {
+	
+	public String name = "KNGClient", version = "Dev 1.0.0 (CLOSED DEV)";
+
+}

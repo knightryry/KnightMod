@@ -1,0 +1,33 @@
+package kngClient.gui;
+
+import java.io.IOException;
+
+import net.minecraft.client.gui.GuiButton;
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.gui.GuiSelectWorld;
+
+public class MainMenu extends GuiScreen{
+	
+	@Override
+	public void initGui() {
+		this.buttonList.add(new GuiButton(height, width, height, "Singleplayer"));
+		super.initGui();
+	}
+	
+	@Override
+	public void drawScreen(int mouseX, int mouseY, float partialTicks) {
+		
+		super.drawScreen(mouseX, mouseY, partialTicks);
+	}
+	
+	@Override
+	protected void actionPerformed(GuiButton button) throws IOException {
+	if(button.id == 1) {
+	mc.displayGuiScreen(new GuiSelectWorld(this));	
+	}
+		
+
+		super.actionPerformed(button);
+	}
+
+}
